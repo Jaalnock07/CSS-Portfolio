@@ -1,0 +1,99 @@
+.homepage{
+    background-color:#D2E3C8;
+    display: grid;
+    grid-template-columns: auto 33%;
+}
+
+.tree-img{ 
+    margin-right: 0%;
+    padding-right: 0px;
+    height:100vh;
+    float: right;
+    order: 1;
+    grid-column: 2;
+}
+.home-text > p{
+    font-family: "Noto Serif", serif;
+    color: #739072;
+}
+.name{
+    font-size: 50px;
+    font-family:"Dancing Script", cursive;
+    margin-top:15%;
+    padding-bottom:2%;
+    color:#4F6F52;
+}
+
+.home-text{
+    display: flex;
+    flex-flow: column;
+    margin-left: 10%;
+}
+.work{
+    font-size: 30px;
+}
+#para{
+    font-weight: 400;
+    margin-top:43%;
+    font-size: 30px;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.myimage{
+    margin-left: 150px;
+    margin-top: 90px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.info-para{
+    margin:15% 0%;
+}
+
+.mb-3 {
+    margin-bottom: 1rem ;
+    display: inline-block;
+    margin-left: 10%;
+    width: 35%;
+}
+
+.footer{
+    background-color:#D2E3C8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card-text{
+    color: black;
+    font-weight: 300;
+}
+
+.card-header{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.section{
+    background-color: #D2E3C8;
+    padding-top:25px;
+    padding-bottom: 25px;
+}
+
+.btn{
+    width:200px;
+}
+
+.work{
+    margin:0% 20%;
+}
+
+
+
